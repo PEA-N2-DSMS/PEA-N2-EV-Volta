@@ -5,7 +5,7 @@ Standalone GitHub Pages version of the original dashboard, exported 2026-10-09. 
 ## Enable hosting
 Settings → Pages → Source: **GitHub Actions**. Then Actions → Refresh data and deploy Pages → Run workflow.
 
-Expected URL: https://chaleamchonppp-tech.github.io/PEA-N2-Oct2026/
+Expected URL: https://PEA-N2-DSMS.github.io/PEA-N2-EV-Volta/
 
 ## Data
 The initial dataset and update history were read from the live original site. GitHub Actions reads the same publicly accessible Google Sheets XLSX export on a roughly 15-minute schedule. Scheduled runs can be delayed by GitHub; inactive public repository schedules may be disabled after 60 days. The browser checks the deployed JSON every 15 minutes. The refresh button checks the deployed JSON; it does not trigger a GitHub workflow.
